@@ -22,7 +22,7 @@
 
 // Primero establecemos una función para guardar el nombre de nuestro cliente y darle la bienvenida. Aqui incorporamos uno de los primeros conseptos, guardamos una variable y la concatenamos
 function saludar () {
-  let nombre = prompt ("Por favor ingrese su nombre")
+  let nombre = prompt ("Por favor ingrese su nombre ")
   alert("Bienvenido al bar de Moe"+" "+nombre+" "+".A continuación tendrá nuestro catálogo de bebidas")
 }
 
